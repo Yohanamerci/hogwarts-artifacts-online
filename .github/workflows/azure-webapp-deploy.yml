@@ -1,7 +1,8 @@
 name: Build and deploy a container to an Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: hogwarts-artifacts-online-by-placide
+  # Set to the actual Azure Web App name that matches the publish profile secret
+  AZURE_WEBAPP_NAME: hogwarts-artifacts-online-merciyohana
 
 on:
   push:
